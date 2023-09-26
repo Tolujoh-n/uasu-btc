@@ -1,14 +1,9 @@
 import React from "react";
-import SectionTen from "./Components/SectionTen";
-import SectionNine from "./Components/SectionNine";
-import SectionEight from "./Components/SectionEight";
-import SectionSeven from "./Components/SectionSeven";
-import SectionSix from "./Components/SectionSix";
-import SectionFive from "./Components/SectionFive";
-import SectionFour from "./Components/SectionFour";
-import SectionThree from "./Components/SectionThree";
-import SectionTwo from "./Components/SectionTwo";
-import SectionOne from "./Components/SectionOne";
+import Investors from "./Components/Investors";
+import Moreabout from "./Components/Moreabout";
+import Tokenomics from "./Components/Tokenomics";
+import Otc from "./Components/Otc";
+import About from "./Components/About";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Hero from "./Components/Hero";
@@ -43,16 +38,11 @@ function App() {
 
       <main id="main">
         <Hero />
-        <SectionOne />
-        <SectionTwo />
-        <SectionThree />
-        <SectionFour />
-        <SectionFive />
-        <SectionSix />
-        <SectionSeven />
-        <SectionEight />
-        <SectionNine />
-        <SectionTen />
+        <About />
+        <Otc />
+        <Moreabout />
+        <Tokenomics />
+        <Investors />
       </main>
       <Footer />
     </>

@@ -995,6 +995,36 @@ section {
   background-color: gold;
 }
 
+.join-count {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.join-images {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.join-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.join-image:not(:first-child) {
+  margin-left: -10px; 
+}
+
+.join-count p {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #fff;
+}
 
 /*--------------------------------------------------------------
 # Footer

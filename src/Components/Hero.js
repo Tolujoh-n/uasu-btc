@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react';
+import { Link } from "react-router-dom";
 import { initHeaderScrolled } from "../assets/js/headerScrolled";
 
 
@@ -12,13 +13,14 @@ function Hero() {
         <div className="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
           <div className="col-xl-12 col-lg-8">
 
-            <h1>PROTECT YOUR BITCOIN FROM LOSSES WHILE HOLDING YOUR KEYS</h1>
+            <h1><span style={{ color: 'goldenrod' }}>PROTECT YOUR BITCOIN</span> FROM LOSSES WHILE <span style={{ color: 'goldenrod' }}>HOLDING YOUR KEYS</span></h1>
             <h2>
               Hedge using unstoppable bitcoin payoff on Layer 1
             </h2>
-            <a href="" className="api-started-btn scrollto">
+            <br></br>
+            <Link to="/Waitlist" className="api-started-btn scrollto">
               Join Alpha Waiting list
-            </a>
+            </Link>
           </div>
         </div>
       </div>

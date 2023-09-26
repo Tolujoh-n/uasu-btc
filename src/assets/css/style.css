@@ -949,6 +949,53 @@ section {
   }
 }
 
+/* Wait list */
+.waitlist-page {
+  text-align: center;
+}
+
+.waitlist-section {
+  margin: 2rem;
+  padding: 2rem;
+  /* border: 1px solid #ccc; */
+  /* border-radius: 10px; */
+  /* background-color: #f7f7f7; */
+}
+
+/* .waitlist-section h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+} */
+
+/* .waitlist-section p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+} */
+
+ input[type="email"] {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.submit-button {
+  background-color: goldenrod;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: gold;
+}
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/

@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Import Routes
 import Investors from "./Components/Investors";
 import Moreabout from "./Components/Moreabout";
 import Tokenomics from "./Components/Tokenomics";
@@ -7,6 +8,7 @@ import About from "./Components/About";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Hero from "./Components/Hero";
+import Waitlist from "./Components/Waitlist";
 
 // Css files
 import "./assets/vendor/aos/aos.css";
@@ -33,19 +35,27 @@ function App() {
   });
 
   return (
-    <>
-      <Header />
-
-      <main id="main">
-        <Hero />
-        <About />
-        <Otc />
-        <Moreabout />
-        <Tokenomics />
-        <Investors />
-      </main>
-      <Footer />
-    </>
+    <Router>
+      <>
+        <Header />
+        <main id="main">
+          <Routes> {/* Use Routes instead of Route */}
+            <Route path="/" element={ // Use element prop instead of direct component
+              <>
+                <Hero />
+                <About />
+                <Otc />
+                <Moreabout />
+                <Tokenomics />
+                <Investors />
+              </>
+            } />
+            <Route path="/waitlist" element={<Waitlist />} /> {/* Use element prop */}
+          </Routes>
+        </main>
+        <Footer />
+      </>
+    </Router>
   );
 }
 

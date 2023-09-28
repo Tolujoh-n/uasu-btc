@@ -28,29 +28,29 @@ function About() {
             <p style={{ color: 'aliceblue' }}>
             UASU’s platform is designed for high-value, low-frequency trading
             </p>
-            <a
+            <p
               style={{ marginTop: '30px' }}
               href=""
               className="about-started-btn scrollto"
             >
               Select your BTC Amont to Protect
-            </a>
+            </p>
             <br />
-            <a
+            <p
               style={{ marginTop: '10px' }}
               href=""
               className="about-started-btn scrollto"
             >
               Set Maximum insurance & Expiration
-            </a>
+            </p>
             <br />
-            <a
+            <p
               style={{ marginTop: '10px' }}
               href=""
               className="about-started-btn scrollto"
             >
               Review terms and Sign
-            </a>
+            </p>
           </div>
         </div>
       </div>

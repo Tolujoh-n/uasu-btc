@@ -11,7 +11,7 @@ function Investors() {
           <h1 style={{ color: 'goldenrod' }}>Investors</h1>
           <div className='text-center'>
           <p>
-          <img style={{ height: '5rem', textAlign: 'center' }} src={featureImage3} className="img-fluid" alt="" />
+          <img style={{ height: '2rem', textAlign: 'center' }} src={featureImage3} className="img-fluid" alt="" />
           </p>
           </div>
           

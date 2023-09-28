@@ -46,7 +46,7 @@ function App() {
                 <About />
                 <Otc />
                 <Moreabout />
-                <Tokenomics />
+                {/* <Tokenomics /> */}
                 <Investors />
               </>
             } />

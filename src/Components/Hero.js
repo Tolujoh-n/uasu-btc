@@ -22,8 +22,8 @@ function Hero() {
         >
           <div className="col-xl-12 col-lg-8">
             <h1>
-              <span style={{ color: "goldenrod" }}>PROTECT YOUR BITCOIN</span>{" "}
-              FROM LOSSES WHILE{" "}
+              <span style={{ color: "goldenrod" }}>BUY BITCOIN INSURANCE</span>{" "}
+               WHILE{" "}
               <span style={{ color: "goldenrod" }}>HOLDING YOUR KEYS</span>
             </h1>
             <h2>Hedge using unstoppable bitcoin payoff on Layer 1</h2>

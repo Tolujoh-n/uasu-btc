@@ -15,7 +15,7 @@ function Header() {
         </a>
   
           <a href="/" className="get-started-btn scrollto">
-            Lauch App
+            Launch App
           </a>
         
       </div>

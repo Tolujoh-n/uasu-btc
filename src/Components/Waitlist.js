@@ -67,6 +67,7 @@ function Waitlist() {
           </div>
         </div>
       </div>
+    <hr></hr>
     </section>
   );
 }

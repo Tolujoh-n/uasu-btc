@@ -6,7 +6,7 @@ function Tokenomics() {
     <section id="cta" className="cta">
       <div className="container" data-aos="zoom-in">
         <div className="text-center">
-          <h3 style={{ color: 'goldenrod' }}>Transparent pricing and tiered-fee system</h3>
+          <h3 style={{ color: 'goldenrod' }}>Tokenomics</h3>
           <p>
           UASU brings a transparent pricing model for native bitcoin options. No hidden fees, no abusive margins. The fee is calculated on the option premium, not on the locked Bitcoin collateral.
           </p>

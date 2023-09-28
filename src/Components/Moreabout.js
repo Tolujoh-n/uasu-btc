@@ -16,11 +16,11 @@ function Moreabout() {
             <h3 style={{ color: "goldenrod" }}>
               Trading simple and transparent
             </h3>
-            <p style={{ color: "aliceblue" }}>
+            {/* <p style={{ color: "aliceblue" }}>
               UASU’s platform is designed for high-value, low-frequency trading.
               UASU uses the power of bitcoin technology to create options
               contracts as on-chain transactions. 
-            </p>
+            </p> */}
           </div>
           <br />
         </div>
@@ -45,11 +45,11 @@ function Moreabout() {
               <h4>
                 <a href="">Match making excellence</a>
               </h4>
-              <p style={{ color: "azure" }}>
+              {/* <p style={{ color: "azure" }}>
                 UASU’s OTC is an open-auction platform, bringing together risk
                 underwriters, market makers, bitcoiners, and buyers representing
                 DeFi protocols. This optimizes the deal-making process.
-              </p>
+              </p> */}
             </div>
           </div>
 
@@ -72,14 +72,14 @@ function Moreabout() {
               <h4>
                 <a href="">Fully-covered bitcoin options</a>
               </h4>
-              <p style={{ color: "azure" }}>
+              {/* <p style={{ color: "azure" }}>
                 Our technology executes options contract terms which have been
                 pre-agreed by users; this enables value transfer to remain
                 strictly under user control. The options contract terms are
                 inscribed directly into Bitcoin ordinals, ensuring system
                 transparency. Payouts are determined by means of distributed
                 price feed oracles.
-              </p>
+              </p> */}
             </div>
           </div>
 
@@ -102,13 +102,13 @@ function Moreabout() {
               <h4>
                 <a href="">Non-KYC</a>
               </h4>
-              <p style={{ color: "azure" }}>
+              {/* <p style={{ color: "azure" }}>
                 Our blockchain-driven, open-access platform ensures that KYC and
                 AML obligations are the responsibility of each participant based
                 on their own jurisdiction, not UASU’s platform. With fully
                 covered options, you can trade confidently without fear of
                 counterparty risk.
-              </p>
+              </p> */}
             </div>
           </div>
 
@@ -131,12 +131,12 @@ function Moreabout() {
               <h4>
                 <a href="">Customized options</a>
               </h4>
-              <p style={{ color: "azure" }}>
+              {/* <p style={{ color: "azure" }}>
                 UASU’s OTC platform enables users to create specifically
                 tailored orders. Users can choose various strike prices,
                 expiration dates, and option strategies to suit their hedging or
                 speculative needs.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

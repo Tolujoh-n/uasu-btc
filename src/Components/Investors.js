@@ -14,7 +14,7 @@ function Investors() {
           <img style={{ height: '2rem', textAlign: 'center' }} src={featureImage3} className="img-fluid" alt="" />
           </p>
           </div>
-          
+          <hr />
         </div>
       </div>
     </section>

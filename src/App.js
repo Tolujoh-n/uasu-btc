@@ -9,6 +9,7 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Hero from "./Components/Hero";
 import Waitlist from "./Components/Waitlist";
+import Faq from "./Components/Faq";
 
 // Css files
 import "./assets/vendor/aos/aos.css";
@@ -48,6 +49,7 @@ function App() {
                 <Moreabout />
                 {/* <Tokenomics /> */}
                 <Investors />
+                <Faq />
               </>
             } />
             <Route path="/waitlist" element={<Waitlist />} /> {/* Use element prop */}
